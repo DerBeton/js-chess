@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Chess</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+<div id="chess-container">
+
+  <div id="grave-container-white" class="grave-container">
+  </div>
+
+  <div id="chess-board">
+
+    <div id="plane-row-8" class="plane-row plane-row-8"></div>
+
+    <div id="plane-row-7" class="plane-row plane-row-7"></div>
+
+    <div id="plane-row-6" class="plane-row plane-row-6"></div>
+
+    <div id="plane-row-5" class="plane-row plane-row-5"></div>
+
+    <div id="plane-row-4" class="plane-row plane-row-4"></div>
+
+    <div id="plane-row-3" class="plane-row plane-row-3"></div>
+
+    <div id="plane-row-2"class="plane-row plane-row-2"></div>
+
+    <div id="plane-row-1" class="plane-row plane-row-1"></div>
+
+  </div>
+
+  <div id="grave-container-black" class="grave-container"></div>
+
+  <div id="spawn-container-white" class="spawn-container">
+    <div id="s-w-tower" class="spawn-piece"></div>
+    <div id="s-w-knight" class="spawn-piece"></div>
+    <div id="s-w-bishop" class="spawn-piece"></div>
+    <div id="s-w-queen" class="spawn-piece"></div>
+  </div>
+  <div id="spawn-container-black" class="spawn-container">
+    <div id="s-b-tower" class="spawn-piece"></div>
+    <div id="s-b-knight" class="spawn-piece"></div>
+    <div id="s-b-bishop" class="spawn-piece"></div>
+    <div id="s-b-queen" class="spawn-piece"></div>
+  </div>
+
+</div>
+
+<img src="./assets/objects/arrow.png" alt="Back Arrow" id="back-arrow">
+
+<script type="text/javascript" src="./js/game.js"></script>
+<script type="text/javascript" src="./js/movement.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/board.js"></script>
+<script type="text/javascript" src="./js/pieces.js"></script>
+
+</body>
+</html>
